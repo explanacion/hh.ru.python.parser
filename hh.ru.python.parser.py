@@ -1,4 +1,4 @@
-#!/usr/bin/python
+п»ї#!/usr/bin/python
 # -*- coding:utf-8 -*-
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -194,13 +194,13 @@ if __name__=='__main__':
         tree.column("#4", width=120)
         tree.column("#5", width=110)
         tree.column("#6", width=0)
-        tree.heading("#0",text="№", command="")
-        tree.heading("label",text="Заголовок")
-        tree.heading("salary",text="з/п")
-        tree.heading("descriprion",text="Описание")
-        tree.heading("date",text="Дата публикации")
-        tree.heading("company",text="Компания")
-        tree.heading("url",text="Ссылка")
+        tree.heading("#0",text="в„–", command="")
+        tree.heading("label",text="Р—Р°РіРѕР»РѕРІРѕРє")
+        tree.heading("salary",text="Р·/Рї")
+        tree.heading("descriprion",text="РћРїРёСЃР°РЅРёРµ")
+        tree.heading("date",text="Р”Р°С‚Р° РїСѓР±Р»РёРєР°С†РёРё")
+        tree.heading("company",text="РљРѕРјРїР°РЅРёСЏ")
+        tree.heading("url",text="РЎСЃС‹Р»РєР°")
         tree.pack(expand=True, fill='both')
 
         for i,item in enumerate(oldresults):
